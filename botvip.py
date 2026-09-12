@@ -8,10 +8,10 @@ import numpy as np
 from datetime import datetime, timedelta, timezone
 
 # ==================== CONFIGURATION ====================
-BOT_TOKEN = "8941789412:AAFozJB6739WidOgg_ex5bYEpmpRWuQ71e4"
-GITHUB_TOKEN = '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'
-REPO_OWNER = "MgPhyoe1"
-REPO_NAME = "Phyoe"
+BOT_TOKEN = os.environ["BOT_TOKEN"]
+GITHUB_TOKEN = os.environ["GITHUB_TOKEN"]
+REPO_OWNER = os.environ["REPO_OWNER"]
+REPO_NAME = os.environ["REPO_NAME"]
 
 ADMINS = [
     "8112785371",
